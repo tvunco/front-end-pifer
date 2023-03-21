@@ -1,0 +1,37 @@
+.container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.reds{
+    margin-right: 0.5em;
+    align-items: center;
+}
+#logoag{
+width: 130px;
+
+}
+img{
+
+    width: 50px;
+    margin-left: 5px;
+}
+.btn{
+    border-width: medium;
+}
+/**/
+@media ( max-width: 575px){
+.container{
+    flex-direction: column;
+ 
+}
+.reds{
+    flex-direction: column;
+    display: flex;
+    align-items: center;  
+
+}
+.reds img{
+    margin: 0.5em;
+}
+}
